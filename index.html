@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&family=Roboto+Slab:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/multiple.js/0.0.1/multiple.css"
+      integrity="sha512-oXriCA6uhRjv4Lk/s7ViqAnb6SMDN4Bzaup0ijGV9GdpKtJ202SZhwtqDSq5YB45gVfVwnDjMqg2KeST2HCKgg=="
+      crossorigin="anonymous"
+    />
+    <title>Toni Stokić - Portfolio</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <a href="#about">About me</a>
+            </li>
+            <li>
+              <a href="#technologies">Technologies</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#contact">Contact me</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="hero">
+          <h1 class="headline">Hi, I'm Toni Stokić,</h1>
+          <p class="tagline">a web developer</p>
+
+          <a href="#projects" class="cta-button hero-cta">View projects</a>
+        </div>
+
+        <!-- <div class="hero-back">
+          <div class="big-bubble bubble"></div>
+          <div class="mid-bubble bubble"></div>
+          <div class="small-bubble bubble"></div>
+        </div> -->
+
+        <svg
+          class="hero-back"
+          width="1444"
+          height="509"
+          viewBox="0 0 1444 509"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M627.373 509C745.655 509 856.304 480.915 950.783 432.082C1026.73 497.449 1141.49 494.163 1213.54 422.222C1287.52 348.347 1289 229.491 1217.98 153.815C1238.39 105.651 1251.06 54.2863 1254.67 0.834717H0.0737305C19.2468 284.25 292.768 509 627.373 509ZM1360.3 210.24C1406.53 210.24 1444 172.82 1444 126.661C1444 80.5021 1406.53 43.0826 1360.3 43.0826C1314.08 43.0826 1276.6 80.5021 1276.6 126.661C1276.6 172.82 1314.08 210.24 1360.3 210.24Z"
+            fill="url(#paint0_linear)"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear"
+              x1="-1.00001"
+              y1="643.479"
+              x2="1261.97"
+              y2="-255.086"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop offset="0.229167" stop-color="#8B6AEB" />
+              <stop offset="0.609375" stop-color="#3EABF6" />
+              <stop offset="1" stop-color="#67F1ED" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </header>
+
+      <section id="about" class="about-section">
+        <h2 data-aos="fade-up">About Me</h2>
+        <p data-aos="fade-up">
+          I’m a hard working student at TVZ with a passion for web development
+          and a love for learning and acquiring new experiences.
+        </p>
+      </section>
+
+      <section class="technologies-section" id="technologies">
+        <h2 data-aos="fade-up">Technologies</h2>
+        <p data-aos="fade-up">
+          These are some of the programming languages, frameworks and apps that
+          I use most often.
+        </p>
+
+        <div class="tech-hex" data-aos="fade-up">
+          <img src="img/tech icons/html.png" alt="html" />
+          <img src="img/tech icons/css.png" alt="css" />
+          <img src="img/tech icons/js.png" alt="javascript" />
+          <img
+            src="img/tech icons/react.png"
+            alt="react"
+            class="center-piece"
+          />
+          <img src="img/tech icons/node.png" alt="node" />
+          <img src="img/tech icons/github.png" alt="github" />
+          <img src="img/tech icons/figma.png" alt="figma" />
+        </div>
+      </section>
+
+      <section id="projects" class="projects-section">
+        <h2 data-aos="fade-up">Projects</h2>
+
+        <div class="projects-list">
+          <div class="project-card" data-aos="fade-up">
+            <img
+              src="img/project screenshots/nutrition app.png"
+              alt="nutrition app project screenshot"
+            />
+            <div class="project-text">
+              <h3>Nutrition App</h3>
+              <p class="project-description">
+                A React app that uses the USDA Food Data Central API and allows
+                users to search for foods and get nutritional information.
+              </p>
+              <div class="project-cta-container">
+                <a href="#" class="cta-button project-cta">view project</a>
+                <a href="#" class="cta-button github-cta">view code</a>
+              </div>
+
+              <div class="project-technologies">
+                <img src="img/tech icons/react.png" alt="react" />
+                <img src="img/tech icons/emotion.png" alt="emotion" />
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-aos="fade-up">
+            <img
+              src="img/project screenshots/color timer.png"
+              alt="color timer project screenshot"
+            />
+            <div class="project-text">
+              <h3>Color Timer</h3>
+              <p class="project-description">
+                A timer with adjustable colors that change from one hue to
+                another as time passes.
+              </p>
+              <div class="project-cta-container">
+                <a href="#" class="cta-button project-cta">view project</a>
+                <a href="#" class="cta-button github-cta">view code</a>
+              </div>
+
+              <div class="project-technologies">
+                <img src="img/tech icons/js.png" alt="javascript" />
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-aos="fade-up">
+            <img
+              src="img/project screenshots/nutrition tracker.png"
+              alt="nutrition tracker project screenshot"
+            />
+            <div class="project-text">
+              <h3>Nutrition Tracker</h3>
+              <p class="project-description">
+                A React Native mobile app that allows users to keep track of
+                their nutrition by entering their own meals or searching the
+                Food Data Central.
+              </p>
+              <div class="project-cta-container">
+                <a href="#" class="cta-button github-cta">view code</a>
+              </div>
+
+              <div class="project-technologies">
+                <img src="img/tech icons/react.png" alt="react" />
+                <img src="img/tech icons/expo.png" alt="expo" />
+                <img src="img/tech icons/redux.png" alt="redux" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="contact-and-footer">
+      <div class="contact-and-footer-back"></div>
+      <div class="wrapper">
+        <section id="contact" class="contact-section">
+          <h2 data-aos="fade-up">Contact Me</h2>
+
+          <form class="contact-form" data-aos="fade-up">
+            <div class="form-grid">
+              <div class="name-field">
+                <label for="name">Name*</label>
+                <input id="name" type="text" />
+              </div>
+
+              <div class="email.-field">
+                <label for="email">Email*</label>
+                <input id="email" type="emil" />
+              </div>
+
+              <div class="message-field">
+                <label for="message">Message*</label>
+                <textarea id="message" rows="10"></textarea>
+              </div>
+            </div>
+
+            <input type="submit" value="send" class="cta-button" />
+          </form>
+        </section>
+
+        <footer>
+          <nav>
+            <ul>
+              <li>
+                <a href="#about">About me</a>
+              </li>
+              <li>
+                <a href="#technologies">Technologies</a>
+              </li>
+              <li>
+                <a href="#projects">Projects</a>
+              </li>
+              <li>
+                <a href="#contact">Contact me</a>
+              </li>
+            </ul>
+          </nav>
+          <a
+            href="https://github.com/DashNothing"
+            target="_blank"
+            class="github-link"
+          >
+            <img src="img/tech icons/github white.png" alt="my github" />
+          </a>
+
+          <div class="footer-back"></div>
+        </footer>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/multiple.js/0.0.1/multiple.min.js"
+      integrity="sha512-h7sEAeLJrgSKuLDecT6NeHSUlbSwpS30IqGu21caM/sa//cWhp5J5D+MOZ0C5QM4GbJlZeEY1ZXXGVtI5m1arg=="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="index.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+    </script>
+  </body>
+</html>
