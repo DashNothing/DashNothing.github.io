@@ -22,9 +22,9 @@
 		<title>Toni Stokić - Portfolio</title>
 	</head>
 	<body>
-		<div class="wrapper">
-			<header>
-				<nav>
+		<header>
+			<div class="wrapper">
+				<nav id="nav">
 					<ul>
 						<li>
 							<a href="#about">About me</a>
@@ -39,7 +39,37 @@
 							<a href="#contact">Contact me</a>
 						</li>
 					</ul>
+
+					<svg
+						class="close-menu"
+						id="close-menu"
+						width="32"
+						height="32"
+						viewBox="0 0 32 32"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							d="M25.3334 8.54667L23.4534 6.66667L16 14.12L8.54669 6.66667L6.66669 8.54667L14.12 16L6.66669 23.4533L8.54669 25.3333L16 17.88L23.4534 25.3333L25.3334 23.4533L17.88 16L25.3334 8.54667Z"
+							fill="black"
+						/>
+					</svg>
 				</nav>
+
+				<svg
+					class="hamburger"
+					id="hamburger"
+					width="32"
+					height="32"
+					viewBox="0 0 32 32"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						d="M4 24H28V21.3333H4V24ZM4 17.3333H28V14.6667H4V17.3333ZM4 8V10.6667H28V8H4Z"
+						fill="white"
+					/>
+				</svg>
 
 				<div class="hero">
 					<h1 class="headline">Hi, I'm Toni Stokić,</h1>
@@ -47,44 +77,69 @@
 
 					<a href="#projects" class="cta-button hero-cta">View projects</a>
 				</div>
+			</div>
 
-				<!-- <div class="hero-back">
-          <div class="big-bubble bubble"></div>
-          <div class="mid-bubble bubble"></div>
-          <div class="small-bubble bubble"></div>
-        </div> -->
+			<!-- Hero back desktop -->
+			<svg
+				class="hero-back"
+				width="1444"
+				height="509"
+				viewBox="0 0 1444 509"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					fill-rule="evenodd"
+					clip-rule="evenodd"
+					d="M627.373 509C745.655 509 856.304 480.915 950.783 432.082C1026.73 497.449 1141.49 494.163 1213.54 422.222C1287.52 348.347 1289 229.491 1217.98 153.815C1238.39 105.651 1251.06 54.2863 1254.67 0.834717H0.0737305C19.2468 284.25 292.768 509 627.373 509ZM1360.3 210.24C1406.53 210.24 1444 172.82 1444 126.661C1444 80.5021 1406.53 43.0826 1360.3 43.0826C1314.08 43.0826 1276.6 80.5021 1276.6 126.661C1276.6 172.82 1314.08 210.24 1360.3 210.24Z"
+					fill="url(#paint0_linear)"
+				/>
+				<defs>
+					<linearGradient
+						id="paint0_linear"
+						x1="-1.00001"
+						y1="643.479"
+						x2="1261.97"
+						y2="-255.086"
+						gradientUnits="userSpaceOnUse"
+					>
+						<stop offset="0.229167" stop-color="#8B6AEB" />
+						<stop offset="0.609375" stop-color="#3EABF6" />
+						<stop offset="1" stop-color="#67F1ED" />
+					</linearGradient>
+				</defs>
+			</svg>
 
-				<svg
-					class="hero-back"
-					width="1444"
-					height="509"
-					viewBox="0 0 1444 509"
-					fill="none"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<path
-						fill-rule="evenodd"
-						clip-rule="evenodd"
-						d="M627.373 509C745.655 509 856.304 480.915 950.783 432.082C1026.73 497.449 1141.49 494.163 1213.54 422.222C1287.52 348.347 1289 229.491 1217.98 153.815C1238.39 105.651 1251.06 54.2863 1254.67 0.834717H0.0737305C19.2468 284.25 292.768 509 627.373 509ZM1360.3 210.24C1406.53 210.24 1444 172.82 1444 126.661C1444 80.5021 1406.53 43.0826 1360.3 43.0826C1314.08 43.0826 1276.6 80.5021 1276.6 126.661C1276.6 172.82 1314.08 210.24 1360.3 210.24Z"
-						fill="url(#paint0_linear)"
-					/>
-					<defs>
-						<linearGradient
-							id="paint0_linear"
-							x1="-1.00001"
-							y1="643.479"
-							x2="1261.97"
-							y2="-255.086"
-							gradientUnits="userSpaceOnUse"
-						>
-							<stop offset="0.229167" stop-color="#8B6AEB" />
-							<stop offset="0.609375" stop-color="#3EABF6" />
-							<stop offset="1" stop-color="#67F1ED" />
-						</linearGradient>
-					</defs>
-				</svg>
-			</header>
+			<!-- Hero back mobile -->
+			<svg
+				class="hero-back-mobile"
+				viewBox="0 0 360 492"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+				preserveAspectRatio="none"
+			>
+				<path
+					d="M360 0H0V468.544C57.0156 483.788 117.63 492 180.472 492C242.968 492 303.26 483.879 360 468.796V0Z"
+					fill="url(#paint1_linear)"
+				/>
+				<defs>
+					<linearGradient
+						id="paint1_linear"
+						x1="-426.902"
+						y1="622.202"
+						x2="730.164"
+						y2="-92.05"
+						gradientUnits="userSpaceOnUse"
+					>
+						<stop offset="0.229167" stop-color="#8B6AEB" />
+						<stop offset="0.609375" stop-color="#3EABF6" />
+						<stop offset="1" stop-color="#67F1ED" />
+					</linearGradient>
+				</defs>
+			</svg>
+		</header>
 
+		<div class="wrapper">
 			<section id="about" class="about-section">
 				<h2 data-aos="fade-up">About Me</h2>
 				<p data-aos="fade-up">
@@ -234,7 +289,7 @@
 								<input id="name" type="text" />
 							</div>
 
-							<div class="email.-field">
+							<div class="email-field">
 								<label for="email">Email*</label>
 								<input id="email" type="emil" />
 							</div>
