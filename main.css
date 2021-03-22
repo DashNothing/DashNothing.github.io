@@ -18,11 +18,11 @@
 
 html {
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 
 body {
 	overflow-x: hidden;
-	overflow-y: scroll;
 	font-family: "Raleway", sans-serif;
 }
 
@@ -43,6 +43,7 @@ ul {
 	height: 100%;
 	padding: 0 100px;
 	margin: 0 auto;
+	overflow-x: hidden;
 }
 
 h2 {
@@ -594,6 +595,15 @@ footer .github-link img {
 		display: flex;
 		flex-direction: column;
 		row-gap: 10px;
+	}
+
+	.project-technologies {
+		position: relative;
+		margin: 0 auto 30px;
+	}
+
+	.project-technologies img {
+		height: 30px;
 	}
 
 	footer {
