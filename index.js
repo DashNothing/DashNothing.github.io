@@ -36,3 +36,12 @@ const toggleMenu = () => {
 		openMenu();
 	}
 };
+
+// Tech list delayed animation
+
+let techListItems = document.querySelectorAll(".tech-list div");
+techListItems = Array.from(techListItems);
+
+techListItems.forEach((item, index) => {
+	item.style.animationDelay = index * 0.1 + "s";
+});
